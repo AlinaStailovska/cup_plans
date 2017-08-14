@@ -1,0 +1,26 @@
+body, html {
+	height: 100%;
+}
+
+.flex-container {
+	background-color: #fdde7e;
+	width: 1200px;
+	height: 600px;
+	display: inline-flex; 	
+	align-items: center;
+	justify-content: space-around;
+	margin: 30px 80px;
+	/*margin: auto;*/
+	border-radius: 5px;
+}
+
+.flex-item-bronze,
+.flex-item-silver {
+	width: 360px;
+	height: 445px;
+}
+
+.flex-item-gold {
+	width: 360px;
+	height: 500px;	
+}
